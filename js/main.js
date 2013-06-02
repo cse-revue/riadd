@@ -2,8 +2,8 @@ $(function() {
 
 	var current = new Date();
 	var start = new Date();
-	start.setHours(19)
-	start.setMinutes(30);
+	start.setHours(18)
+	start.setMinutes(00);
 
 	console.log(current);
 	console.log(start);
