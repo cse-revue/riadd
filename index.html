@@ -9,13 +9,120 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/flipclock.css">
+        <style>
+            body {
+                background:black;
+
+            }
+
+            h1 {
+                color:green;
+            }
+
+            pre {
+                color:green;
+                font-size: 8px;
+                display:block;
+            }
+            .center {
+                text-align: center;
+                display: block;
+                margin-left:-230px;
+                width:460px;
+                left:50%;
+            }
+        </style>
     </head>
     <body>
+        <center>
       <h1>The Divine C Code</h1>
+      <div class="center">
+        <div class="countdown"></div>
+    </div>
+<bR>
+    <br><br><br>
+      <pre>
 
 
-      <div class="countdown"></div>
-        
+                                                                                                                                                      
+                                                               .........................                                                              
+                                                        .:.:cc::                     :.:cc:..                                                        
+                                                  ..:.::                                    ::..cC:...                                                
+                                             ..c..:                                                   ::..                                            
+                                        . ...:                                                            :...                                      
+                                    ..::                                                                      ::..                                   
+                                  ..:                                                                             .:.                                 
+                                .:                                                                                   .:.                              
+                              .:.                                                                                       o:                            
+                           .o.                                                                                            :.                          
+                         .o                                                                                                 :c                        
+                        c                                                                                                     .:                      
+                     .c                                                                                                         :.                  
+                o::coocoocc:.::.... .::: :c:c..............:.::::.:.:.ccCCCCccco...:...:...........::.:......::.........:.:cccOCoocc:cc               
+                :  c:o.:oCco::                                    .:CccCCCCCCC::Co.                                       .co.o:cc::c c               
+                cc..:ccCC:::.c:c                                 :oCC:CC      CccCco:                                  .:.  :oc.oo.c .c               
+               .:  ...c.cCo    :c.....                         .:cooOoC         ccccc                             ..c::  oc:o.c:o .   .c              
+              :.c:.     .ooc:      .:cc:...                      ccCOO                                   . ..cCoc:        c  C.::     ..o             
+            :o. :           .oc:c    .     co:.                 :coCOO                                 ..o:.    :      .c: ..         .  .            
+           oCc  c .       :    .::o.           cc...             coCOO                            ....C.           :o                 ::  .:          
+          oCo   C..               . cc        ..    .cc..        cooCOO        OOCocc       .. :oc.             .o..                  .:   .:         
+         cC     oC                 .    .co:     :       .....::::coCCOc      coOCoc .c.....o:              oc.  .                    .:     .        
+        :C     cCCooc:::..   .....       .c.    :o:.:...       ...:occcoCCCCccccC.o.....:oc.   .:.. .c:. .              .    .cccocc...:     :.       
+       :Oc      occoo:     c:ooC:.cccoc:::coo.o:.....o: Cc :.      :..CccoooccCC....     o   ::C:.Occ:......::c:::c. ::oCocC:    oo:.cc:      c.      
+       co       c::cCOOOC. .o .:             c:         .coo     ... ...:....:.....:..  :c ::..         c                 cCc:oo. . :c.:       o      
+      .o        . ::cco:. ..ocCc.            :  oc:        :.:   .         :          .. C.          .. .                .::  .c:::oC .:        .     
+     cc         :              .co.::oocooooo........oc:c:co:coC.         :.          cc.occoc.cCo::co::o::......coc.....       .     .:        c     
+     :C.        :              .                              ccOC.       . ::       C.o:                .      . ..                  .:         o    
+    .OO.        :                                             .CCOCooc.:cC::.CCoOo:oc:O.                                        .     .:         c:   
+    :C.         :                                               c          o          o                                               .:          o   
+    Co.         :                                               :.:        .   .     ...                                              .:          :.  
+    o.          :                                                :                   c:                                               .:          o   
+    o.          :                                               .c                   c                                                .:           :. 
+   .o           :                                                 c.       .    .  :o.                                               .c:           o  
+   .o           :                                                .o        o    c   o..                                               .:           C. 
+   c:           o                                                c:       .C        o.                                                .:           o  
+   c:           c                                              .:C        :C        :c                                                .:           o  
+   ..           o                                              cCccc       0     .co .                                             ..: :           o
+   :c           o                                              .c                   :c                                                .:           C  
+   .C           o.                                             .c                   :.:                                               .:           o  
+   .C           o                                              c:                   : :.                                              ..           :  
+   .C.          o       .                                    .oo.      .: :c:.::    C o                                               .:          o  
+    Oo          o                                            o  c      :o:c.c:Cc    o  c.                                              :          c.  
+    oC          o                                         ..c   :        .c....     :   o                                             ..          :   
+     O:         c.                                       c.c   .:       c:. .:.      .   c.:                                          .:         :.   
+     cC         c                                         :    :.      :  c.:c:      :    o                                           .:         :    
+      C.        c                                        .c    ..     c   ..  c      c     o                                          .:        :.    
+      .o        c                                       :o      c   c     :    c     .     :                                           :        o     
+       cc       o                                       c      .cc:       c     c    .      c                                          :       o      
+       .o.      o                                       o   ..  C        :c      .o .     :o:                                          :      ::      
+        :o      c                                      :..     oo:      .:c        co       c.                                         c     :.       
+         cc:    o                                    :o       c..:     .:co.       co:      .c.                                        :     :        
+          co:   c                                  .c. :   .c:   c       cc.       c  : :    .o                                        :    :         
+           .C.  c                                .:c :   ::c:    c:      :c       c  .c. cC.  ..                                       :  oc          
+            cc. o                               .o    .::o.      o.     :.o      .c   ::c  .:c.c                                       :  .           
+             :C o                             .c:      :..      ::     cc c       c     :.   ..:o.                                     :..            
+               :o                            .c.      :c        :    . o  c      .:     .o       :                                     o              
+                Cc                          :o:      :c.        :.. : :.  :. .:. o.      :c       :.:                                 o:              
+                o.c                        occ       o:         c     c  :.    cc.       co.       .c                               C. :              
+                o. .c.                    ..c      .o          c:     : .o      c        .:o         o.                           ::   :              
+                o    :.                  .:o.    :o.           o      .  :      c           o        ..                          :     :              
+                o     ::c                :..     c:           .C.      o::      c.          ..c      .o.                      .c       .              
+                c.      :.:             o::    :c             .c.      c c      ..             C       c                    .c         :              
+                c         :...          :.:   o..             ::o      c .       :              c  .   ..                  c           .              
+                c            :c..      :.c.   ..               .:.     c  Coc   .:                o     ..              o.             o              
+                :               :c.   o:o. :.: .               .:o     o  ::.   :.                  o.    o::  :cc.  :.                c              
+                c                  :co:c    ::                  .co.   o  ::.   c.                   c. .c. .  o.c::.                  o              
+                :                     .o:oocc .                  ..o   :   o    ::                   .o..     :oc:                     c              
+                c:                        .C::.                  :::o   c. .c    o.                 ..::  .O.                          o              
+                :                             c:...             .. .o    :  :. . :c                    :o:                             o              
+                o                                ::....          :c.c:    :..: .   .cc.. .      ......:                                c              
+                o                                    ::....:::oooCOCoc:::c:.o :oooCOCoc: .:oc:::                                       o              
+                oooccoooc:::cc:::::::c::::::::::::::::::..::..coccoCCoCOocccooooooooooocooocooocco.  .:.: .c..::::::.:::::.:.:..:.:::::o              
+
+      </pre>
+        </center>
+
+
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="js/flipclock/libs/prefixfree.min.js"></script>
         <script src="js/flipclock/flipclock.min.js"></script>
